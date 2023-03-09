@@ -31,5 +31,5 @@ ISR(TIMER0_OVF_vect)
 void Timer0_setCallBack(void(*a_ptr)(void))
 {
 	/* Save the address of the Call back function in a global variable */
-	g_callBackPtr = a_ptr;
+	g_callBackPtr = a_ptr;// ahmed ali was here
 }
